@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Util">
+      <UniqueIdentifier>{5e6a2e6d-2a25-4b70-9540-fc7e0015365b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI">
+      <UniqueIdentifier>{4e908879-802b-4248-88eb-f9f63bc33071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Math">
+      <UniqueIdentifier>{78df742e-aebb-4dce-af45-640edaec6356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Transitor">
+      <UniqueIdentifier>{6cbfbcba-2ea7-493c-ba62-954b9efe2120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{a169a769-c11d-457d-b1bc-4b2574a83c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage">
+      <UniqueIdentifier>{24b9da70-e092-46d3-8097-971984ba0fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Editor">
+      <UniqueIdentifier>{74fb05ef-e293-4f31-9a12-499bd735c249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{15eb5fed-5c96-41f3-94cd-9f5960737479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect">
+      <UniqueIdentifier>{a2ef8d32-c629-4c8d-8944-fb6b7f179a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy">
+      <UniqueIdentifier>{9864279b-9f21-4734-bfaf-5a88e97be7ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Laser">
+      <UniqueIdentifier>{12a82fca-64c1-4348-908b-63305fe3240b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy\Boss">
+      <UniqueIdentifier>{a4237435-3162-4b2b-8e04-c5c57a80453b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy\Normal">
+      <UniqueIdentifier>{4b646907-041b-46fd-80d6-e79980747be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Debug">
+      <UniqueIdentifier>{266e0d49-3720-4b65-87d4-ebfc071e422b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Score">
+      <UniqueIdentifier>{d20f5125-af61-4f75-b33d-d0050db6ab6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\String">
+      <UniqueIdentifier>{6f9ef78c-7211-4ca9-9e9a-6e38f1e1ee57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DataType">
+      <UniqueIdentifier>{ea788350-b728-447b-8c3f-6721625f17d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveData.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\DebugScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\DrawFunctions.cpp">
+      <Filter>ソース ファイル\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Easing.cpp">
+      <Filter>ソース ファイル\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\InputState.cpp">
+      <Filter>ソース ファイル\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TestScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneManager.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneBase.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector2.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Transitor\TransitorBase.cpp">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Transitor\FadeTransitor.cpp">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Transitor\PushTransitor.cpp">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Transitor\IrisTransitor.cpp">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Transitor\WipeTransitor.cpp">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Transitor\StripTransitor.cpp">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Transitor\TileTransitor.cpp">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Transitor\Fade.cpp">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\OptionScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\StageSelectScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MathUtil.cpp">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\DataReaderFromUnity.cpp">
+      <Filter>ソース ファイル\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Camera.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Shield.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SkyDome.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Gauge.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIBase.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIManager.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Image3D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ImageUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\StatusBack.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Meteor.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MeteorManager.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\StageBase.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\Tutorial.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DamageFlash.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\Effekseer3DEffectManager.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\ScreenShaker.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Planet.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlanetManager.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\EnemyManager.cpp">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Laser\LaserBase.cpp">
+      <Filter>ソース ファイル\Game\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Laser\LaserManager.cpp">
+      <Filter>ソース ファイル\Game\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Laser\NormalLaser.cpp">
+      <Filter>ソース ファイル\Game\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\Boss\BossMosquito.cpp">
+      <Filter>ソース ファイル\Game\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\Normal\Mosquito.cpp">
+      <Filter>ソース ファイル\Game\Enemy\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Laser\ReflectLaser.cpp">
+      <Filter>ソース ファイル\Game\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\Boss\BossMatrix.cpp">
+      <Filter>ソース ファイル\Game\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Warning.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\StringUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\EnemyBase.cpp">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\Flash.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\Triangle.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDebug\DebugText.cpp">
+      <Filter>ソース ファイル\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Laser\CubeLaser.cpp">
+      <Filter>ソース ファイル\Game\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="Score\Score.cpp">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Score\ScoreRanking.cpp">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="String\MessageManager.cpp">
+      <Filter>ソース ファイル\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\StringUtil.cpp">
+      <Filter>ソース ファイル\String</Filter>
+    </ClCompile>
+    <ClCompile Include="String\Font.cpp">
+      <Filter>ソース ファイル\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\FileUtil.cpp">
+      <Filter>ソース ファイル\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\Stage1.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelHandleManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ResultWindow.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TutorialUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PuseScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\FlagManager.cpp">
+      <Filter>ソース ファイル\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ConfirmScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveData.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\DebugScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\DrawFunctions.h">
+      <Filter>ソース ファイル\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Easing.h">
+      <Filter>ソース ファイル\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\InputState.h">
+      <Filter>ソース ファイル\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Range.h">
+      <Filter>ソース ファイル\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TestScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneManager.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneBase.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Timer.h">
+      <Filter>ソース ファイル\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Transitor\TransitorBase.h">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Transitor\FadeTransitor.h">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Transitor\PushTransitor.h">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Transitor\IrisTransitor.h">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Transitor\WipeTransitor.h">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Transitor\StripTransitor.h">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Transitor\TileTransitor.h">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Transitor\Fade.h">
+      <Filter>ソース ファイル\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\OptionScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\StageSelectScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathUtil.h">
+      <Filter>ソース ファイル\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\DataReaderFromUnity.h">
+      <Filter>ソース ファイル\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Camera.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Shield.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SkyDome.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Gauge.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIBase.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIManager.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Image3D.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ImageUI.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\StatusBack.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Meteor.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MeteorManager.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\StageBase.h">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\Tutorial.h">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DamageFlash.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\Effekseer3DEffectManager.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\ScreenShaker.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Planet.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlanetManager.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\EnemyManager.h">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Laser\NormalLaser.h">
+      <Filter>ソース ファイル\Game\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Laser\LaserManager.h">
+      <Filter>ソース ファイル\Game\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Laser\LaserBase.h">
+      <Filter>ソース ファイル\Game\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\Boss\BossMosquito.h">
+      <Filter>ソース ファイル\Game\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\Normal\Mosquito.h">
+      <Filter>ソース ファイル\Game\Enemy\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\Boss\BossMatrix.h">
+      <Filter>ソース ファイル\Game\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Warning.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\StringUI.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\EnemyBase.h">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\Flash.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\Triangle.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDebug\DebugText.h">
+      <Filter>ソース ファイル\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Laser\CubeLaser.h">
+      <Filter>ソース ファイル\Game\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="Score\Score.h">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Score\ScoreRanking.h">
+      <Filter>ソース ファイル\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="String\MessageManager.h">
+      <Filter>ソース ファイル\String</Filter>
+    </ClInclude>
+    <ClInclude Include="String\StringUtil.h">
+      <Filter>ソース ファイル\String</Filter>
+    </ClInclude>
+    <ClInclude Include="String\Font.h">
+      <Filter>ソース ファイル\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\FileUtil.h">
+      <Filter>ソース ファイル\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\Stage1.h">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelHandleManager.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ResultWindow.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TutorialUI.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PuseScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\FlagManager.h">
+      <Filter>ソース ファイル\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DataType\PlayerParamDataType.h">
+      <Filter>ソース ファイル\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="DataType\EffectDataType.h">
+      <Filter>ソース ファイル\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Laser\ReflectLaser.h">
+      <Filter>ソース ファイル\Game\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ConfirmScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
